@@ -28,7 +28,6 @@ Agendar una consulta suele depender de llamadas o atención presencial, lo que g
 
 ## Estructura
 
-​```
 HospitalMambo/
 ├── src/hospitalmambo/
 │   ├── HospitalMambo.java      # Clase principal
@@ -37,7 +36,7 @@ HospitalMambo/
 ├── src/img/                    # Imágenes
 ├── SQLQuery1.sql               # Script de la base de datos
 └── docs/MamboKing67.docx       # Documentación del proyecto
-​```
+​
 
 ## Modelo de datos
 
