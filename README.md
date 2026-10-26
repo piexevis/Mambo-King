@@ -60,24 +60,11 @@ Relación uno a muchos: un **Cliente** tiene muchas **Consultas**.
 | | Costo |
 | | IdCliente (FK) |
 
-## Instalación
-
 ### Requisitos
 - JDK 25
 - SQL Server (por ejemplo, instancia Express)
 - Driver [mssql-jdbc 13.4.0](https://learn.microsoft.com/sql/connect/jdbc/download-microsoft-jdbc-driver-for-sql-server) agregado a las librerías del proyecto
 - Windows (la conexión usa autenticación integrada y requiere `mssql-jdbc_auth-13.4.0.x64.dll`)
 
-### Pasos
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/<tu-usuario>/<tu-repo>.git
-   ```
-2. Ejecuta `SQLQuery1.sql` en SQL Server para crear la base de datos y las tablas.
-3. Edita la cadena de conexión en `Conexion.java` y `ConexionCliente.java` con el nombre de **tu** servidor/instancia:
-   ```java
-   jdbc:sqlserver://TU-PC\\TU-INSTANCIA;database=Consulta;encrypt=false;integratedSecurity=true
-   ```
-4. Abre `HospitalMambo` en NetBeans, agrega el JAR del driver y ejecuta la clase `HospitalMambo`.
 
 ## Proyecto académico.
